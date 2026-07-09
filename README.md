@@ -1,17 +1,38 @@
-# React + Vite
+# 🍑 Dilan Tok — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome! This is the source code for my personal portfolio website.
 
-Currently, two official plugins are available:
+🔗 **Live site:** [dilantok.github.io/Portfolio](https://dilantok.github.io/Portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+I'm a Computer Science & AI student passionate about robotics and intelligent systems. This site is a personal portfolio page I built to showcase myself, my skills, and my projects.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React** — UI development
+- **Vite** — build tool
+- **Tailwind CSS** — styling
+- **GitHub Pages** — hosting
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Portfolio
+## Features
+
+- 🎨 Pixel-art themed design
+- 🎵 Background music with play/pause toggle
+- 📱 Responsive layout
+- 🔗 Social media links (GitHub, LinkedIn, Pixilart)
+
+## Running Locally
+
+```bash
+git clone https://github.com/dilantok/Portfolio.git
+cd Portfolio
+npm install
+npm run dev
+```
+
+## Contact
+
+- GitHub: [@dilantok](https://github.com/dilantok)
+- LinkedIn: [Dilan Tok](https://www.linkedin.com/in/dilan-t-6bb922293/)
+- Pixilart: [ddln](https://www.pixilart.com/ddln)
