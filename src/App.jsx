@@ -221,12 +221,26 @@ const App = () => {
           ))}
         </div>
 
-        <div className="browser-toolbar" aria-hidden="true">
-          <span className="toolbar-arrow">←</span>
-          <span className="toolbar-arrow">→</span>
-          <span className="toolbar-refresh">↻</span>
+        <div className="browser-toolbar">
+          <button
+            className="toolbar-arrow"
+            type="button"
+            onClick={() => switchTab("About Me")}
+            aria-label="Go to About Me"
+          >
+            ←
+          </button>
+          <button
+            className="toolbar-arrow"
+            type="button"
+            onClick={() => switchTab("Projects")}
+            aria-label="Go to Projects"
+          >
+            →
+          </button>
+          <span className="toolbar-refresh" aria-hidden="true">↻</span>
           <div className="address-bar">https://dilantok.github.io/Portfolio/</div>
-          <span className="toolbar-sparkle">✧</span>
+          <span className="toolbar-sparkle" aria-hidden="true">✧</span>
         </div>
 
         <div className="browser-page">

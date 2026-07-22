@@ -171,6 +171,23 @@ a {
   line-height: 1;
 }
 
+.toolbar-arrow {
+  cursor: pointer;
+  border-radius: 999px;
+  transition: transform 180ms ease, background 180ms ease, color 180ms ease;
+}
+
+.toolbar-arrow:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.32);
+  color: #0d7e95;
+}
+
+.toolbar-arrow:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.88);
+  outline-offset: 2px;
+}
+
 .toolbar-refresh {
   font-size: 2.25rem;
 }
